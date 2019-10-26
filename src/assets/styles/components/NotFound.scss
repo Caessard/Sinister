@@ -1,0 +1,29 @@
+/* Error */
+.error {
+  background: linear-gradient(to bottom, rgb(114, 20, 20) /*#2c3e50*/, rgb(49, 2, 58)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px;
+  min-height: calc(100vh - 180px);
+  color: white;
+}
+.error__title {
+  font-size: 50px;
+}
+// .error__title:hover {
+//   font-size: 52px;
+//   color: rgb(255, 217, 0);
+//   font-weight: bold;
+//   cursor: not-allowed;
+// }
+.error__subtitle {
+  font-size: 20px;
+}
+// .error__subtitle:hover {
+//   font-size: 22px;
+//   color: rgb(255, 226, 61);
+//   font-weight: bold;
+//   cursor: not-allowed;
+// }
