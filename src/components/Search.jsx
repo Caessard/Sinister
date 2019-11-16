@@ -1,12 +1,11 @@
-import React from 'react';
-import '../assets/styles/components/Search.scss';
+import React from 'react'
+import '../assets/styles/components/Search.scss'
 
 const Search = () => (
     <section className="main">
-        <h2 className="main__title">What do you want to watch today?</h2>
-        <input type="text" className="main__input" placeholder="Search..." />
+        <h2 className="main__title">¿Qué quieres ver hoy?</h2>
+        <input type="text" className="input" placeholder="Buscar..." />
     </section>
+)
 
-);
-
-export default Search;
+export default Search
